@@ -1,0 +1,77 @@
+:root {
+  --main-color: #212121;
+  --grey: #757575;
+  --footer-mail-number: rgba(255, 255, 255, 0.6);
+  --white: #ffffff;
+  --blue: #2196f3;
+  --black: #000000;
+}
+ul {
+  list-style: none;
+}
+.logo-blue {
+  color: var(--blue);
+}
+.logo-black {
+  color: var(--black);
+}
+.logo-white {
+  color: var(--white);
+}
+
+body {
+  color: var(--main-color);
+}
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--main-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue);
+}
+.list-cont .mail,
+.list-cont .tel {
+  color: var(--grey);
+}
+.list-cont .mail:hover,
+.list-cont .mail:focus,
+.list-cont .tel:hover,
+.list-cont .tel:focus {
+  color: var(--blue);
+}
+/* Hero */
+.main-banner {
+  background-color: #2f303a;
+}
+.text-hero {
+  color: var(--white);
+}
+.features-list .features-desc {
+  color: var(--grey);
+}
+.list-members .position {
+  color: var(--grey);
+}
+
+.bg .footer {
+  background-color: #2f303a;
+}
+.adress-list .city {
+  color: var(--white);
+}
+.adress-list .mail,
+.adress-list .tel {
+  color: var(--footer-mail-number);
+}
+/* Портфолио */
+.filters .item {
+  color: var(--main-color);
+}
+.serv-list .service {
+  color: var(--main-color);
+}
+.serv-list .descrip {
+  color: var(--grey);
+}
