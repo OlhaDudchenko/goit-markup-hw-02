@@ -43,11 +43,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:active,
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--blue);
 }
+.site-nav .link.current {
+  color: var(--blue);
+}
+
 .list-cont .mail,
 .list-cont .tel {
   color: var(--grey);
